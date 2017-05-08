@@ -6,13 +6,15 @@
   "scripts": {
     "build": "babel src --out-dir lib --ignore test.js,__mocks__",
     "coverage": "jest --coverage",
-    "lint": "eslint . --fix --format=node_modules/eslint-formatter-pretty",
+    "lint": "eslint src --fix --format=node_modules/eslint-formatter-pretty",
+    "prepublish": "npm run build",
     "test": "jest"
   },
   "author": "Vlad Holubiev",
   "license": "MIT",
   "dependencies": {
-    "elasticsearch": "^13.0.0"
+    "elasticsearch": "^13.0.0",
+    "lodash": "^4.17.4"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
