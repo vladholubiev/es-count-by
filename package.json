@@ -1,0 +1,29 @@
+{
+  "name": "es-got-top-field-values",
+  "version": "1.0.0",
+  "description": "Get top values of field from ES",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel src --out-dir lib --ignore test.js,__mocks__",
+    "coverage": "jest --coverage",
+    "lint": "eslint . --fix --format=node_modules/eslint-formatter-pretty",
+    "test": "jest"
+  },
+  "author": "Vlad Holubiev",
+  "license": "MIT",
+  "dependencies": {
+    "elasticsearch": "^13.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-jest": "^20.0.0",
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.4.0",
+    "eslint": "^3.19.0",
+    "eslint-config-google": "0.6.0",
+    "eslint-formatter-pretty": "^1.1.0",
+    "jest": "^20.0.0"
+  }
+}

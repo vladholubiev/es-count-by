@@ -1,0 +1,12 @@
+.idea/
+.serverless/
+_build/
+coverage/
+lib/
+node_modules/
+
+*.log
+*.sh
+*.draft.js
+.DS_Store
+draft.js
