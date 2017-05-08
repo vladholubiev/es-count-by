@@ -1,0 +1,11 @@
+.git/
+.idea/
+coverage/
+src/
+node_modules/
+
+*.log
+*.sh
+.DS_Store
+wallaby.config.js
+yarn.lock
