@@ -1,7 +1,7 @@
 {
-  "name": "es-got-top-field-values",
+  "name": "es-count-by",
   "version": "1.0.0",
-  "description": "Get top values of field from ES",
+  "description": "Get top field values from ES",
   "main": "lib/index.js",
   "scripts": {
     "build": "babel src --out-dir lib --ignore test.js,__mocks__",
